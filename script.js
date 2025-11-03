@@ -9,7 +9,7 @@ function generateUsername()
     var smash22 = smash2[Math.floor(Math.random() * smash2.length)];
     var text2 = text[Math.floor(Math.random() * text.length)];
     var emoticon2 = emoticon[Math.floor(Math.random() * emoticon.length)];
-    var username = smash1 + smash2 + text + emoticon;
+    var username = smash12 + smash22 + text2 + emoticon2;
 
  document.getElementById('username').textContent = 'your password is: ' + username;
 }
